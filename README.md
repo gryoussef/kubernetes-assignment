@@ -30,3 +30,8 @@ The Pod Disruption Budget ensures that at least 2 pods will remain available dur
 The Secret contains the API key for the app, which is passed to the app as an environment variable.
 
 The ServiceAccount is used by the Deployment for authorization.
+
+# CI pipeline
+
+I have tried to integrate [Kubescape](https://github.com/kubescape/github-action/blob/main/.github/workflows/example-scan.yaml) but did not work for some reason. it does not work also in their repository. I don't have time to investigate.
+
